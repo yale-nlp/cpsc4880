@@ -1,403 +1,347 @@
-- date: Thu 08/31/23
+# CPSC 4880: Frontier AI Models -- Fall 2026
+# Dates are tentative: verify against the official Yale Fall 2026 academic calendar.
+# [Instructor] = Arman lecture, [Students] = paper presentation session, [Guest] = guest lecture
+
+- date: Tue 09/01/26
   lecturer:
     - Arman
   title:
-    - Course introduction
-    - Logistics
-    - Transformers - high level overview
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EasWFaRb3O9FlIjBXGg2jpYBlXuQ6pfCnr9kVorcUrP4kw?e=aJnoui
+    - Course introduction and logistics
+    - The frontier model landscape in 2026
   readings:
-    - Attention is all you need (2017) <a href="https://arxiv.org/abs/1706.03762" target="_blank">[link]</a>
+    - GPT-4 Technical Report (2023) <a href="https://arxiv.org/abs/2303.08774" target="_blank">[link]</a>
+    - The Llama 3 Herd of Models (2024, skim) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
   logistics:
 
-- date: Tues 09/05/23
+- date: Thu 09/03/26
   lecturer:
     - Arman
   title:
-    - Optimization, backpropagation, and training
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EY-tqM8VeRxGpNbdiyWnb0oBg5Kk7ISzAR7O_4fbjV6xrw?e=hRLARH
-  # slides2:
-  logistics:
+    - Foundations refresher
+    - Transformers, pretraining objectives, tokenization, compute analysis
   readings:
-    - Deep Feedforward Networks. Ian Goodfellow, Yoshua Bengio, & Aaron Courville (2016). Deep Learning, Chapter 6.5. <a href="https://www.deeplearningbook.org/contents/mlp.html" target="_blank">[link]</a>
-    - An overview of gradient descent optimization algorithms <a href="https://arxiv.org/pdf/1609.04747.pdf" target="_blank">[link]</a>
-    - A Gentle Introduction to Torch Autograd <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">[link]</a>
-    - Autograd Mechanics <a href="https://pytorch.org/docs/stable/notes/autograd.html">[link]</a>
-
-- date: Thu 09/07/23
-  lecturer:
-    - Arman
-  title:
-    - Word embeddings
-    - Tokenization
-  readings:
-    - Distributed Representations of Words and Phrases and their Compositionality (2013) <a href="https://arxiv.org/pdf/1310.4546.pdf" target="_blank">[link]</a>
-    - GloVe- Global Vectors for Word Representation (2014) <a href="https://nlp.stanford.edu/pubs/glove.pdf" target="_blank">[link]</a>
-    - BPE - Neural Machine Translation of Rare Words with Subword Units (2016) <a href="https://arxiv.org/pdf/1508.07909.pdf" target="_blank">[link]</a>
-    - SentencePiece- A simple and language independent subword tokenizer and detokenizer for Neural Text Processing (2018) <a href="https://arxiv.org/pdf/1808.06226.pdf" target="_blank">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EeUZYaR-GFRHldOt3Ss9hv8BVqHlNTvbrPpkjWifKmwKtQ?e=Zu2Wni
+    - Attention Is All You Need (2017) <a href="https://arxiv.org/abs/1706.03762" target="_blank">[link]</a>
+    - Scaling Laws for Neural Language Models (2020) <a href="https://arxiv.org/abs/2001.08361" target="_blank">[link]</a>
   logistics:
 
-- date: Tue 09/12/23
+# ============ Theme 1: Frontier LLM architectures ============
+
+- date: Tue 09/08/26
   lecturer:
     - Arman
   title:
-    - Transformers
-    - Implementation details
+    - "Theme 1 begins: Frontier LLM architectures"
+    - The modern decoder stack
+    - RMSNorm, SwiGLU, RoPE, MQA/GQA, multi-head latent attention, KV caching, FlashAttention
   readings:
-    - Attention is all you need (2017) <a href="https://arxiv.org/abs/1706.03762" target="_blank">[link]</a>
-    - The Annotated Transformer <a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html" target="_blank">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/Ec_DoGtFQNhBl61i8JEbEK4B8EQ4KKwBoeK9h2wNhc9wWg?e=b918JK
-  notebook: https://yaleedu-my.sharepoint.com/:u:/g/personal/arman_cohan_yale_edu/EdTKIVshcrZOn4tplykREL8BFdWdMatrJfUovcclalIY5Q?e=dXkuVT
-  notebook_title: notebook transformer.ipynb
+    - RoFormer - Enhanced Transformer with Rotary Position Embedding (2021) <a href="https://arxiv.org/abs/2104.09864" target="_blank">[link]</a>
+    - GQA - Training Generalized Multi-Query Transformer Models (2023) <a href="https://arxiv.org/abs/2305.13245" target="_blank">[link]</a>
+    - DeepSeek-V2 (2024, MLA sections) <a href="https://arxiv.org/abs/2405.04434" target="_blank">[link]</a>
+    - FlashAttention (2022) <a href="https://arxiv.org/abs/2205.14135" target="_blank">[link]</a>
 
-- date: Thu 09/14/23
+- date: Thu 09/10/26
   lecturer:
     - Arman
   title:
-    - Positional Information
-      - Absolute
-      - Relative
-      - ROPE
-      - ALiBi
-    - Multi-Query Attention
-    - Grouped Multi-Query Attention
-    - Inference
-    - KV caching
-    - Encoder/decoder-only vs encoder-decoder
-  notes:
+    - Sparsity and attention alternatives
+    - Mixture-of-experts, state-space models, linear attention, hybrid architectures
   readings:
-    - Train Short, Test Long- Attention with Linear Biases Enables Input Length Extrapolation <a href="https://arxiv.org/abs/2108.12409" target="_blank">[link]</a>
-    - RoFormer- Enhanced Transformer with Rotary Position Embedding <a href="https://arxiv.org/pdf/2104.09864.pdf" target="_blank">[link]</a>
-    - Fast Transformer Decoding- One Write-Head is All You Need <a href="https://arxiv.org/pdf/1911.02150.pdf">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EQZlgr48VPRPo6fG7QUtYjABkGYr7VLV4EIPu2fR4Pc-yQ?e=gBDQdY
-  logistics: Tips on choosing a project <a href="https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/Ea6n3iOmH01AltSbPq7TbmcBNYwAn66Ww6k5VQWYwxyqVg?e=sqfkct" target="_blank">[slides]</a> <br/><br/> HW1 out <a href="../homework">[link]</a>
+    - Switch Transformers (2021) <a href="https://arxiv.org/abs/2101.03961" target="_blank">[link]</a>
+    - Mixtral of Experts (2024) <a href="https://arxiv.org/abs/2401.04088" target="_blank">[link]</a>
+    - Mamba - Linear-Time Sequence Modeling with Selective State Spaces (2023) <a href="https://arxiv.org/abs/2312.00752" target="_blank">[link]</a>
 
-- date: Th 09/19/23
+- date: Tue 09/15/26
   lecturer:
-    - Arman
+    - Students
   title:
-    - Transfer Learning
+    - "Paper session 1: MoE at the frontier"
   readings:
-    - ELMo, Deep Contextualized Representations <a href="https://arxiv.org/pdf/1802.05365.pdf">[link]</a>
-    - ULMFit, Universal Language Model Fine-tuning for Text Classification <a href="https://arxiv.org/pdf/1801.06146.pdf">[link]</a>
-    - BERT, Pre-training of Deep Bidirectional Transformers for Language Understanding <a href="https://arxiv.org/pdf/1810.04805.pdf">[link]</a>
-    - ELECTRA, Pre-training Text Encoders as Discriminators Rather Than Generators <a href="https://arxiv.org/abs/2003.10555">[link]</a>
-  logistics:
-    - Project teams due. <a href="https://forms.gle/Ce37NzChwvbX2N5Y6">[Team submission form]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EWx4O3lqO-VDnJXLrkneCZEBnF3VksII4UOqz5AU6jultQ?e=LyShMP
-
-- date: Th 09/21/23
-  lecturer:
-    - Arman
-  title:
-    - Model architecture and training objectives
-      - Encoder-decoder, decoder-only
-      - UL2 / FIM
-  readings:
-    - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer <a href="https://arxiv.org/pdf/1910.10683.pdf">[link]</a>
-    - UL2- Unifying Language Learning Paradigms (2022) <a href="https://arxiv.org/pdf/2205.05131.pdf">[link]</a>
-    - What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization? (2022) <a href="https://arxiv.org/pdf/2204.05832.pdf">[link]</a>
-    - BART, Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension <a href="https://arxiv.org/pdf/1910.13461.pdf">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EavoTgCLvGZHs_0OrtmN02kBxavxKwjQxQofnCSe_-j4uw?e=INpX7x
-
-- date: Tue 09/26/23
-  lecturer:
-    - Arman
-  title:
-    - Scale
-    - Compute analysis in transformers
-  readings:
-    - Scaling Laws for Neural Language Models <a href="https://arxiv.org/pdf/2001.08361.pdf" target="_blank">[link]</a>
-    - Training Compute-Optimal Large Language Models <a href="https://arxiv.org/pdf/2203.15556.pdf" target="_blank">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EXP9qJsgBGhAvy_LKPWIVasBg10M8Vww8ZreTvElUOH39w?e=O58crV
-
-- date: Thu 09/28/23
-  lecturer:
-    - TBA
-  title:
-    - Scaling laws and GPT-3
-    - Few-shot Learning
-    - Prompting
-    - In-context learning
-  readings:
-    - Language Models are Few-shot Learners (2020) <a href="https://arxiv.org/pdf/2005.14165.pdf" target="_blank">[link]</a>
-    - Rethinking the Role of Demonstrations- What Makes In-Context Learning Work? (2022) <a href="https://arxiv.org/pdf/2202.12837.pdf" target="_blank">[link]</a>
-    - Data Distributional Properties Drive Emergent In-Context Learning in Transformers (2022) <a href="https://arxiv.org/pdf/2205.05055.pdf" target="_blank">[link]</a>
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/ESXwoPihzA5Hvd2cygP3y8QBnlfwAUalaJjc_vMS0hTlcA?e=BcBbio
-
-- date: Tue 10/03/23
-  lecturer:
-    - Arman
-  title:
-    - Prompting
-    - Emergence
-    - Reasoning
-    - Instruction tuning
-  readings:
-    - Chain of Thought Prompting Elicits Reasoning in Large Language Models <a href="https://arxiv.org/pdf/2201.11903.pdf" target="_blank">[link]</a>
-    - Tree of Thoughts- Deliberate Problem Solving with Large Language Models <a href="https://arxiv.org/abs/2305.10601" target="_blank">[link]</a>
-    - The curious case of neural text degeneration (2020) <a href="https://arxiv.org/pdf/1904.09751.pdf" target="_blank">[link]</a>
-    - Training language models to follow instructions with human feedback (2022) <a href="https://arxiv.org/pdf/2203.02155.pdf" traget="_blank">[link]</a>
-    - Multitask Prompted Training Enables Zero-Shot Task Generalization (2021) <a href="https://arxiv.org/pdf/2110.08207.pdf" traget="_blank">[link]</a>
-    - Finetuned Language Models Are Zero-Shot Learners (2021) <a href="https://arxiv.org/pdf/2109.01652.pdf" traget="_blank">[link]</a>
-    - Scaling Instruction-Finetuned Language Models (2022) <a href="https://arxiv.org/pdf/2210.11416.pdf" traget="_blank">[link]</a>
-    - Tree of Thoughts- Deliberate Problem Solving with Large Language Models (2023) <a href="https://arxiv.org/pdf/2305.10601.pdf" target="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EeI7YmvoBDJBpi4FJs7rAG8BgfMK1V0CwItgCLbVb2E9Sg?e=y8z2QH
-
-- date: Thu 10/05/23
-  lecturer:
-    - Arman
-  title:
-    - Adaptation
-    - Reinforcement Learning for language models fine-tuning
-  readings:
-    - Fine-Tuning Language Models from Human Preferences (2019) <a href="https://arxiv.org/abs/1909.08593" traget="_blank">[link]</a>
-    - Learning to Summarize with Human Feedback (2020) <a href="https://arxiv.org/pdf/2009.01325.pdf" traget="_blank">[link]</a>
-    - InstructGPT - Fine-Tuning Language Models from Human Instructions (2021) <a href="https://arxiv.org/pdf/2109.01196.pdf" traget="_blank">[link]</a>
-    - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback (2022) <a href="https://arxiv.org/pdf/2204.05862.pdf" traget="_blank">[link]</a>
-    - Direct Preference Optimization- Your Language Model is Secretly a Reward Model (2023) <a href="https://arxiv.org/pdf/2305.18290.pdf" traget="_blank">[link]</a>
+    - DeepSeek-V3 Technical Report (2024) <a href="https://arxiv.org/abs/2412.19437" target="_blank">[link]</a>
+    - OLMoE - Open Mixture-of-Experts Language Models (2024) <a href="https://arxiv.org/abs/2409.02060" target="_blank">[link]</a>
   optional:
-    - Parameter-Efficient Transfer Learning for NLP (2019) <a href="https://arxiv.org/pdf/1902.00751.pdf" traget="_blank">[link]</a>
-    - Prefix-Tuning- Optimizing Continuous Prompts for Generation (2021) <a href="https://arxiv.org/pdf/2101.00190.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EfTPv_14JI9BmzaB5e5hAjMBVhFQ1ayZljBgPvVp-MYXtQ?e=EZs7II
-  logistics:
-    - HW 1 due (10/8)
+    - Qwen3 Technical Report (2025) <a href="https://arxiv.org/abs/2505.09388" target="_blank">[link]</a>
+    - Kimi K2 - Open Agentic Intelligence (2025) <a href="https://arxiv.org/abs/2507.20534" target="_blank">[link]</a>
 
-- date: Tues 10/10/23
+- date: Thu 09/17/26
   lecturer:
-    - Arman
+    - Students
+  title:
+    - "Paper session 2: Beyond softmax attention"
+  readings:
+    - Transformers are SSMs - Mamba-2 (2024) <a href="https://arxiv.org/abs/2405.21060" target="_blank">[link]</a>
+    - MiniMax-01 - Scaling Foundation Models with Lightning Attention (2025) <a href="https://arxiv.org/abs/2501.08313" target="_blank">[link]</a>
+  optional:
+    - Jamba - A Hybrid Transformer-Mamba Language Model (2024) <a href="https://arxiv.org/abs/2403.19887" target="_blank">[link]</a>
+    - Gated Delta Networks (2024) <a href="https://arxiv.org/abs/2412.06464" target="_blank">[link]</a>
+
+- date: Tue 09/22/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 3: Long context"
+  readings:
+    - YaRN - Efficient Context Window Extension of LLMs (2023) <a href="https://arxiv.org/abs/2309.00071" target="_blank">[link]</a>
+    - NoLiMa - Long-Context Evaluation Beyond Literal Matching (2025) <a href="https://arxiv.org/abs/2502.05167" target="_blank">[link]</a>
+  optional:
+    - Ring Attention with Blockwise Transformers (2023) <a href="https://arxiv.org/abs/2310.01889" target="_blank">[link]</a>
+    - RULER - What's the Real Context Size of Your Long-Context LMs? (2024) <a href="https://arxiv.org/abs/2404.06654" target="_blank">[link]</a>
+    - Qwen2.5-1M (2025) <a href="https://arxiv.org/abs/2501.15383" target="_blank">[link]</a>
+
+- date: Thu 09/24/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 4: New paradigms - bytes, memory, diffusion"
+  readings:
+    - Byte Latent Transformer - Patches Scale Better Than Tokens (2024) <a href="https://arxiv.org/abs/2412.09871" target="_blank">[link]</a>
+    - Large Language Diffusion Models - LLaDA (2025) <a href="https://arxiv.org/abs/2502.09992" target="_blank">[link]</a>
+  optional:
+    - Titans - Learning to Memorize at Test Time (2025) <a href="https://arxiv.org/abs/2501.00663" target="_blank">[link]</a>
+
+- date: Tue 09/29/26
+  title:
+    - "Guest lecture 1 (TBD): Architectures and efficiency"
   guest:
-    - name: Iz Beltagy
-      photo: https://beltagy.net/assets/logo.jpg
-      profile: https://beltagy.net/
-      affil: Allen Institute for AI
-  title:
-    - Challenges and Opportunities of Building Open LLMs
+    - name: TBD
+      affil: TBD
   readings:
-    - What Language Model to Train if You Have One Million GPU Hours (2022) <a href="https://arxiv.org/abs/2210.15424" target="_blank">[link]</a>
-    - Dolma- Trillion Token Open Corpus for Language Model Pretraining (2023) <a href="https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64">[link]</a>
-    - Llama 2- Open Foundation and Fine-Tuned Chat Models (2023) <a href="https://arxiv.org/pdf/2307.09288.pdf">[link]</a>
-    - Pythia- A Suite for Analyzing Large Language Models Across Training and Scaling (2023) <a href="https://arxiv.org/pdf/2304.01373.pdf">[link]</a>
-    - BLOOM- A 176B-Parameter Open-Access Multilingual Language Model (2022) <a href="https://arxiv.org/abs/2211.05100">[link]</a>
-    - Scaling Language Models- Methods, Analysis & Insights from Training Gopher (2022) <a href="https://arxiv.org/pdf/2304.01373.pdf">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EdAJQ2LSMuRNi2UMJqU4ra4BvpVrT8-ElC0OEec7eE0bYw?e=jPc835
 
-- date: Thu 10/12/23
-  lecturer:
-    - TBA
-  title:
-    - Parameter efficient fine tuning
-  readings:
-    - Parameter-Efficient Transfer Learning for NLP (2019) <a href="https://arxiv.org/pdf/1902.00751.pdf" target="_blank">[link]</a>
-    - Prefix-Tuning- Optimizing Continuous Prompts for Generation (2021) <a href="https://arxiv.org/pdf/2101.00190.pdf" target="_blank">[link]</a>
-    - Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning (2022) <a href="https://arxiv.org/pdf/2205.05638.pdf" target="_blank">[link]</a>
-    - LoRA- Low-Rank Adaptation of Large Language Models <a href="https://arxiv.org/pdf/2106.09685.pdf" target="_blank">[link]</a>
-    - Scaling Down to Scale Up- A Guide to Parameter-Efficient Fine-Tuning <a href="https://arxiv.org/pdf/2303.15647.pdf" target="_blank">[link]</a>
-    - Efficient Transformers- A Survey <a href="https://arxiv.org/pdf/2009.06732.pdf" target="_blank">[link] </a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EQS1IpFyWd1Euwn1lgnKvzMBix3HwLFtP9VkARim9fo_lA?e=cfesyC
+# ============ Theme 2: Training and post-training ============
 
-- date: Tue 10/17/23
-  title:
-    - Guest lecture by <a href="https://scholar.google.com/citations?hl=en&user=_8mkIjgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Tushar Khot</a> <br/>Reasoning with (De)Composition
-  guest:
-    - name: Tushar Khot
-      photo: https://images.ctfassets.net/wf5t1ptx352c/4vu1PjzasU284W4KU2wwIO/b8fcb0c9aadbbb098c119b9c5a83ced8/Tushar-Khot.jpg
-      profile: https://scholar.google.com/citations?hl=en&user=_8mkIjgAAAAJ&view_op=list_works&sortby=pubdate
-      affil: Allen Institute for AI
-  readings:
-    - Hey AI, Can You Solve Complex Tasks by Talking to Agents? <a href="https://arxiv.org/pdf/2110.08542.pdf" target="_blank">[link]</a>
-    - Toolformer - A Tool-Augmented Language Model (2022) <a href="https://arxiv.org/pdf/2302.04761.pdf" traget="_blank">[link]</a>
-    - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback (2023) <a href="https://arxiv.org/pdf/2110.08542.pdf" traget="_blank">[link]</a>
-    - ReAct- Synergizing Reasoning and Acting in Language Models <a href="https://arxiv.org/abs/2210.03629" target="_blank">[link]</a>
-  logistics:
-    - 10/20 Project proposal due
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EYLz-BlXdiBFmQcDPkFQO9MBwZa0Vy8KrC-y8-unOfiJbw?e=SFoKw5
-
-- date: 10/17/23 - 10/23/23
-  lecturer:
-  title: >
-    <strong> October recess - No classes </strong>
-  recitation:
-
-- date: Tue 10/24/23
+- date: Thu 10/01/26
   lecturer:
     - Arman
   title:
-    - Modular deep learning
-    - Mixture of experts
+    - "Theme 2 begins: Training and post-training"
+    - Pretraining at the frontier
+    - Data curation, scaling laws in practice, annealing and midtraining, muP
   readings:
-    # - Flash attention - Fast and memory-efficient exact attention with IO-awareness (2022) <a href="https://arxiv.org/pdf/2205.14135.pdf">[link]</a>
-    # - Flash attention v2 - Faster Attention with Better Parallelism and Work Partitioning
-    - Modular Deep Learning (2022) <a href="https://www.semanticscholar.org/paper/Modular-Deep-Learning-Pfeiffer-Ruder/1f346f74e8eabececa4896d734ab9b261f30830d?utm_medium=extension&utm_content=redirect&utm_source=arxiv.org">[link]</a>
-    - A Review of Sparse Expert Models in Deep Learning (2022) <a href="https://arxiv.org/abs/2209.01667" traget="_blank">[link]</a>
-    - Outrageously Large Neural Networks- The Sparsely-Gated Mixture-of-Experts Layer (2017) <a href="https://arxiv.org/pdf/1701.06538.pdf" traget="_blank">[link]</a>
-    - Switch Transformers- Scaling to Trillion Parameter Models (2021) <a href="https://arxiv.org/pdf/2101.03961.pdf" traget="_blank">[link]</a>
-    # - Sparse Upcycling- Training Mixture-of-Experts from Dense Checkpoints (2022) <a href="https://arxiv.org/pdf/2212.05055.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EV-e97WtemZAuD_TDT-02zoBfzvlv59y0bjLkgb55jfwDw?e=9DEvyg
+    - Training Compute-Optimal Large Language Models - Chinchilla (2022) <a href="https://arxiv.org/abs/2203.15556" target="_blank">[link]</a>
+    - The FineWeb Datasets (2024) <a href="https://arxiv.org/abs/2406.17557" target="_blank">[link]</a>
+    - The Llama 3 Herd of Models (2024, pretraining sections) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
+  optional:
+    - Tensor Programs V - muP (2022) <a href="https://arxiv.org/abs/2203.03466" target="_blank">[link]</a>
+    - Observational Scaling Laws (2024) <a href="https://arxiv.org/abs/2405.10938" target="_blank">[link]</a>
 
-- date: Thu 10/26/23
+- date: Tue 10/06/26
+  lecturer:
+    - Arman
+  title:
+    - Post-training, from RLHF to reasoning models
+    - SFT, reward models, PPO, DPO, RL with verifiable rewards, long chain-of-thought, distillation
+  readings:
+    - Training LMs to Follow Instructions - InstructGPT (2022) <a href="https://arxiv.org/abs/2203.02155" target="_blank">[link]</a>
+    - Direct Preference Optimization (2023) <a href="https://arxiv.org/abs/2305.18290" target="_blank">[link]</a>
+    - DeepSeek-R1 (2025) <a href="https://arxiv.org/abs/2501.12948" target="_blank">[link]</a>
+  optional:
+    - Constitutional AI (2022) <a href="https://arxiv.org/abs/2212.08073" target="_blank">[link]</a>
+    - STaR - Self-Taught Reasoner (2022) <a href="https://arxiv.org/abs/2203.14465" target="_blank">[link]</a>
+
+- date: Thu 10/08/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 5: Data is the product"
+  readings:
+    - FineWeb - Decanting the Web for the Finest Text Data at Scale (2024) <a href="https://arxiv.org/abs/2406.17557" target="_blank">[link]</a>
+    - DataComp-LM (2024) <a href="https://arxiv.org/abs/2406.11794" target="_blank">[link]</a>
+  optional:
+    - Scaling Data-Constrained Language Models (2023) <a href="https://arxiv.org/abs/2305.16264" target="_blank">[link]</a>
+    - Phi-4 Technical Report (2024) <a href="https://arxiv.org/abs/2412.08905" target="_blank">[link]</a>
+
+- date: Tue 10/13/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 6: Open training recipes"
+  readings:
+    - The Llama 3 Herd of Models (2024) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
+    - 2 OLMo 2 Furious (2024) <a href="https://arxiv.org/abs/2501.00656" target="_blank">[link]</a>
+  optional:
+    - Beyond Chinchilla-Optimal (2023) <a href="https://arxiv.org/abs/2401.00448" target="_blank">[link]</a>
+  logistics:
+    - Project proposal due Fri 10/16
+
+- date: Thu 10/15/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 7: Preference optimization"
+  readings:
+    - Direct Preference Optimization (2023) <a href="https://arxiv.org/abs/2305.18290" target="_blank">[link]</a>
+    - SimPO - Simple Preference Optimization (2024) <a href="https://arxiv.org/abs/2405.14734" target="_blank">[link]</a>
+  optional:
+    - Tulu 3 - Pushing Frontiers in Open Post-Training (2024) <a href="https://arxiv.org/abs/2411.15124" target="_blank">[link]</a>
+
+- date: Tue 10/20/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 8: RL with verifiable rewards"
+  readings:
+    - DeepSeek-R1 - Incentivizing Reasoning Capability via RL (2025) <a href="https://arxiv.org/abs/2501.12948" target="_blank">[link]</a>
+    - Understanding R1-Zero-Like Training - Dr. GRPO (2025) <a href="https://arxiv.org/abs/2503.20783" target="_blank">[link]</a>
+  optional:
+    - DAPO - An Open-Source LLM RL System at Scale (2025) <a href="https://arxiv.org/abs/2503.14476" target="_blank">[link]</a>
+    - Kimi k1.5 (2025) <a href="https://arxiv.org/abs/2501.12599" target="_blank">[link]</a>
+
+- date: Thu 10/22/26
   lecturer:
   title: >
-    <strong> Midterm </strong>
-  recitation:
+    <strong> October recess - No class </strong>
 
-- date: Tue 10/31/23
-  lecturer: Arman
-  guest:
-    - name: Sewon Min
-      photo: https://shmsw25.github.io/assets/sewon.jpg
-      profile: https://shmsw25.github.io
-      affil: University of Washington
-  title: Retrieval augmented language models
-  photo: https://shmsw25.github.io/assets/sewon.jpg
-  readings:
-    - Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (2020) <a href="https://arxiv.org/pdf/2005.11401.pdf" traget="_blank">[link]</a>
-    - Improving language models by retrieving from trillions of tokens (2021) <a href="https://arxiv.org/pdf/2112.04426.pdf" traget="_blank">[link]</a>
-    - REPLUG, Retrieval-Augmented Black-Box Language Models <a href="https://arxiv.org/pdf/2301.12652.pdf" target="_blank">[link]</a>
-  slides:
-    - ../assets/lectures/f23/lecture16_Sewon-Min-Retrieval-based-LMs.pdf
-
-- date: Tue 11/02/23
-  guest:
-    - name: Colin Raffel
-      photo: https://colinraffel.com/images/me.jpg
-      profile: https://colinraffel.com/
-      affil: University of Toronto
+- date: Tue 10/27/26
+  lecturer:
+    - Students
   title:
-    - Build an Ecosystem, Not a Monolith
+    - "Paper session 9: Test-time compute"
   readings:
-    - Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning (2022) <a href="https://arxiv.org/pdf/2205.05638.pdf" traget="_blank">[link]</a>
-    - Exploring and Predicting Transferability across NLP Tasks (2020) <a href="https://aclanthology.org/2020.emnlp-main.635.pdf" traget="_blank">[link]</a>
-    - Editing Models with Task Arithmetic (2022) <a href="https://arxiv.org/pdf/2212.04089.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EYzyUzd0_F1AnoA1Q8iSGdIBP5ewN3vgefU6HUyxSSMstQ?e=gxxbEL
+    - s1 - Simple Test-Time Scaling (2025) <a href="https://arxiv.org/abs/2501.19393" target="_blank">[link]</a>
+    - Scaling LLM Test-Time Compute Optimally (2024) <a href="https://arxiv.org/abs/2408.03314" target="_blank">[link]</a>
+  optional:
+    - Let's Verify Step by Step (2023) <a href="https://arxiv.org/abs/2305.20050" target="_blank">[link]</a>
 
-- date: Tue 11/07/23
-  lecturer: Arman
+- date: Thu 10/29/26
   title:
-    - Modeling long sequences
-    - Hierarchical and graph-based methods
-    - Recurrence and memory
+    - "Guest lecture 2 (TBD): Post-training and reasoning"
+  guest:
+    - name: TBD
+      affil: TBD
   readings:
-    - Higher-order Coreference Resolution with Coarse-to-fine Inference (2018) <a href="https://arxiv.org/pdf/1804.05392.pdf" traget="_blank">[link]</a>
-    - Entity, Relation, and Event Extraction with Contextualized Span Representations (2020) <a href="https://arxiv.org/abs/1909.03546" traget="_blank">[link]</a>
-    - Memorizing transfomers (2022) <a href="https://arxiv.org/abs/2203.08913" traget="_blank">[link]</a>
-    - Hierarchical Graph Network for Multi-hop Question Answering <a href="https://arxiv.org/pdf/1911.03631.pdf" traget="_blank">[link]</a>
-    - Compressive Transformers for Long-Range Sequence Modelling (2020) <a href="https://arxiv.org/pdf/1911.05507.pdf" traget="_blank">[link]</a>
-    - Efficient transformers - A survey (2022) <a href="https://arxiv.org/pdf/2009.06732.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EWukrTCiFJtJnwXhsnX8rrYBuIgUX9cfkeGTwLgiShO47g?e=Jq2oGh
+
+# ============ Theme 3: Agents and harnesses ============
+
+- date: Tue 11/03/26
+  lecturer:
+    - Arman
+  title:
+    - "Theme 3 begins: Agents and harnesses"
+    - Anatomy of an agent
+    - Tool use, the agent loop, harness design, context management, memory, MCP
+  readings:
+    - ReAct - Synergizing Reasoning and Acting in Language Models (2022) <a href="https://arxiv.org/abs/2210.03629" target="_blank">[link]</a>
+    - Toolformer (2023) <a href="https://arxiv.org/abs/2302.04761" target="_blank">[link]</a>
+    - CodeAct - Executable Code Actions Elicit Better LLM Agents (2024) <a href="https://arxiv.org/abs/2402.01030" target="_blank">[link]</a>
+    - Building Effective Agents (Anthropic, 2024) <a href="https://www.anthropic.com/research/building-effective-agents" target="_blank">[link]</a>
+
+- date: Thu 11/05/26
+  lecturer:
+    - Arman
+  title:
+    - Evaluating agents, and agent safety
+    - Agentic benchmarks and their pitfalls, reward hacking, prompt injection
+  readings:
+    - SWE-bench - Can LMs Resolve Real-World GitHub Issues? (2023) <a href="https://arxiv.org/abs/2310.06770" target="_blank">[link]</a>
+    - tau-bench - Tool-Agent-User Interaction Benchmark (2024) <a href="https://arxiv.org/abs/2406.12045" target="_blank">[link]</a>
+    - GAIA - A Benchmark for General AI Assistants (2023) <a href="https://arxiv.org/abs/2311.12983" target="_blank">[link]</a>
+    - Not What You've Signed Up For - Indirect Prompt Injection (2023) <a href="https://arxiv.org/abs/2302.12173" target="_blank">[link]</a>
+
+- date: Tue 11/10/26
+  lecturer:
+    - Students
+  title:
+    - "Paper session 10: Coding agents"
+  readings:
+    - SWE-agent - Agent-Computer Interfaces Enable Automated SWE (2024) <a href="https://arxiv.org/abs/2405.15793" target="_blank">[link]</a>
+    - Agentless - Demystifying LLM-Based Software Engineering Agents (2024) <a href="https://arxiv.org/abs/2407.01489" target="_blank">[link]</a>
   logistics:
-    - HW 2 due
+    - Midway project report due Fri 11/13
 
-- date: Thu 11/09/23
+- date: Thu 11/12/26
+  lecturer:
+    - Students
   title:
-    - Modeling long sequences
-    - Sparse attention patterns
-    - Approximating attention
-    - Hardware aware efficiency
+    - "Paper session 11: Computer and web use"
   readings:
-    - Longformer- The Long-Document Transformer (2020) <a href="https://arxiv.org/pdf/2004.05150.pdf" traget="_blank">[link]</a>
-    - BigBird - Transformers for Longer Sequences (2020) <a href="https://arxiv.org/pdf/2007.14062.pdf" traget="_blank">[link]</a>
-    - Performer - Rethinking Attention with Performers (2021) <a href="https://arxiv.org/pdf/2009.14794.pdf" traget="_blank">[link]</a>
-    - Reformer - The Efficient Transformer (2020) <a href="https://arxiv.org/pdf/2001.04451.pdf" traget="_blank">[link]</a>
-    - Long T5 - Efficient Text-To-Text Transformer for Long Sequences (2022) <a href="https://arxiv.org/pdf/2103.06336.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EZ3tj2FqiwRInttI48LAjFcB_I_OIUPqMb_7QsZ3JnPQHw?e=CRQ9RW
+    - OSWorld - Benchmarking Multimodal Agents in Real Computer Environments (2024) <a href="https://arxiv.org/abs/2404.07972" target="_blank">[link]</a>
+    - UI-TARS - Pioneering Automated GUI Interaction with Native Agents (2025) <a href="https://arxiv.org/abs/2501.12326" target="_blank">[link]</a>
+  optional:
+    - WebArena (2023) <a href="https://arxiv.org/abs/2307.13854" target="_blank">[link]</a>
 
-- date: Tue 11/14/23
-  lecturer: Arman
+- date: Tue 11/17/26
+  lecturer:
+    - Students
   title:
-    - Training approaches for long sequences
-    - Hardware aware efficiency
-    - Societal considerations and impacts of foundation models
+    - "Paper session 12: Agents that learn"
   readings:
-    - FlashAttention - Fast and Memory-Efficient Exact Attention with IO-Awareness (2022) <a href="https://arxiv.org/abs/2205.14135" traget="_blank">[link]</a>
-    - PRIMERA- Pyramid-based Masked Sentence Pre-training for Multi-document Summarization (2022) <a href="https://arxiv.org/abs/2110.08499" traget="_blank">[link]</a>
-    - Peek Across- Improving Multi-Document Modeling via Cross-Document Question-Answering (2023) <a href="https://arxiv.org/abs/2305.15387" traget="_blank">[link]</a>
-    - What's in my big data? (2023) <a href="https://arxiv.org/pdf/2310.20707.pdf" traget="_blank">[link]</a>
-    - Red Teaming Language Models with Language Models (2022) <a href="https://aclanthology.org/2022.emnlp-main.225.pdf" traget="_blank">[link]</a>
-    - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback (2022) <a href="https://arxiv.org/abs/2204.05862" traget="_blank">[link]</a>
-    # - SwAV- Unsupervised Learning of Visual Features by Contrasting Cluster Assignments (2021) <a href="https://arxiv.org/pdf/2006.09882.pdf" traget="_blank">[link]</a>
-    # - MoCo - Momentum Contrast for Unsupervised Visual Representation Learning (2020) <a href="https://arxiv.org/pdf/1911.05722.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EWZkzgAAE-lBpqKGChEmBggB28VnJ2BP5f8Ylj_AgtcMqw?e=zAZnef
+    - Reflexion - Language Agents with Verbal Reinforcement Learning (2023) <a href="https://arxiv.org/abs/2303.11366" target="_blank">[link]</a>
+    - SWE-RL - Advancing LLM Reasoning via RL on Open Software Evolution (2025) <a href="https://arxiv.org/abs/2502.18449" target="_blank">[link]</a>
+  optional:
+    - Voyager - An Open-Ended Embodied Agent (2023) <a href="https://arxiv.org/abs/2305.16291" target="_blank">[link]</a>
+    - WebRL (2024) <a href="https://arxiv.org/abs/2411.02337" target="_blank">[link]</a>
+    - Why Do Multi-Agent LLM Systems Fail? (2025) <a href="https://arxiv.org/abs/2503.13657" target="_blank">[link]</a>
+    - MemGPT - Towards LLMs as Operating Systems (2023) <a href="https://arxiv.org/abs/2310.08560" target="_blank">[link]</a>
 
-- date: Tue 11/16/23
-  lecturer: Arman
+- date: Thu 11/19/26
   title:
-    - Vision transformers
-    - Diffusion models
+    - "Guest lecture 3 (TBD): Agents in practice"
+  guest:
+    - name: TBD
+      affil: TBD
   readings:
-    - An Image is Worth 16x16 Words- Transformers for Image Recognition at Scale (2020) <a href="https://arxiv.org/pdf/2010.11929.pdf" traget="_blank">[link]</a>
-    - Training data-efficient image transformers & distillation through attention (2021) <a href="https://arxiv.org/pdf/2012.12877.pdf" traget="_blank">[link]</a>
-    - Denoising Diffusion Probabilistic Models (2020) <a href="https://arxiv.org/pdf/2006.11239.pdf" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EVgnE98sFpVHi6rZPaXJhNIBkuPqAlR601y7P877v53bBw?e=cGCXOK
 
-- date: 11/17/23 - 11/26/23
+- date: 11/21/26 - 11/29/26
   lecturer:
   title: >
     <strong> Thanksgiving recess - No classes </strong>
-  recitation:
 
-- date: Tue 11/28/23
-  lecturer: Arman
+# ============ Theme 4: Multimodal frontier models ============
+
+- date: Tue 12/01/26
+  lecturer:
+    - Arman
   title:
-    - Final project presentations -- session 1
-
-- date: Thu 11/30/23
-  title: Towards Large Foundation Vision Models
-  guest:
-    - name: Neil Houlsby
-      profile: https://neilhoulsby.github.io/
-      photo: https://neilhoulsby.github.io/profile.jpg
-      affil: Google Deepmind
+    - "Theme 4 begins: Multimodal frontier models"
+    - Multimodal architectures
+    - Vision encoders, adapter-style VLMs vs early fusion, native multimodality, speech
   readings:
-    - Scaling Vision Transformers to 22 Billion Parameters (2023) <a href="https://arxiv.org/abs/2302.05442" traget="_blank">[link]</a>
-    - From Sparse to Soft Mixtures of Experts (2023) <a href="https://arxiv.org/pdf/2308.00951.pdf" traget="_blank">[link]</a>
-    - Scaling Vision Transformers (2021) <a href="https://arxiv.org/abs/2106.04560" traget="_blank">[link]</a>
-  slides:
-    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EdFKcNw1OJVGhZGN9lWBjk8BM1DIGfZT70_MCoCp5MlGnQ?e=Sg9lC4
-  optional:
-    - PaLI-X- On Scaling up a Multilingual Vision and Language Model <a href="https://arxiv.org/pdf/2305.18565.pdf" traget="_blank">[link]</a>
-    - PaLI- A Jointly-Scaled Multilingual Language-Image Model <a href="https://arxiv.org/abs/2209.06794" traget="_blank">[link]</a>
+    - CLIP - Learning Transferable Visual Models from Natural Language (2021) <a href="https://arxiv.org/abs/2103.00020" target="_blank">[link]</a>
+    - Flamingo - A Visual Language Model for Few-Shot Learning (2022) <a href="https://arxiv.org/abs/2204.14198" target="_blank">[link]</a>
+    - Visual Instruction Tuning - LLaVA (2023) <a href="https://arxiv.org/abs/2304.08485" target="_blank">[link]</a>
 
-- date: Friday 12/1/23
-  lecturer: Arman
+- date: Thu 12/03/26
+  lecturer:
+    - Students
   title:
-    - Final project presentations -- session 2
-  logistics:
-    - 12/9 HW 3 due
-
-- date: Tue 12/05/23
-  lecturer: Arman
-  guest:
-    - name: Ansong Ni
-      profile: https://niansong1996.github.io/
-      photo: https://niansong1996.github.io/images/ansong-ni.jpeg
-      affil: Yale University
-  title:
-    - Foundation Models for Code and Math
-  slides: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/EQlJ8NN7ISBLh_cj-h3igAsBNgZr-EsvMRO9BG4iuSp_-w?e=o18rPG
+    - "Paper session 13: Open vision-language models"
   readings:
-    - Evaluating Large Language Models Trained on Code (2021) <a href="https://arxiv.org/abs/2107.03374" traget="_blank">[link]</a>
-    - Solving Quantitative Reasoning Problems with Language Models (2022) <a href="https://arxiv.org/abs/2206.14858" traget="_blank">[link]</a>
-    - StarCoder- May the source be with you! (2023) <a href="https://arxiv.org/pdf/2305.06161.pdf" traget="_blank">[link]</a>
+    - Molmo and PixMo (2024) <a href="https://arxiv.org/abs/2409.17146" target="_blank">[link]</a>
+    - Qwen2.5-VL Technical Report (2025) <a href="https://arxiv.org/abs/2502.13923" target="_blank">[link]</a>
   optional:
-    - Program Synthesis with Large Language Models (2021) <a href="https://arxiv.org/abs/2108.07732" traget="_blank">[link]</a>
-    - Show Your Work- Scratchpads for Intermediate Computation with Language Models (2021) <a href="https://arxiv.org/abs/2112.00114" traget="_blank">[link]</a>
+    - Gemma 3 Technical Report (2025) <a href="https://arxiv.org/abs/2503.19786" target="_blank">[link]</a>
+    - Gemini 1.5 (2024) <a href="https://arxiv.org/abs/2403.05530" target="_blank">[link]</a>
 
-- date: Thu 12/07/23
-  lecturer: Arman
+- date: Tue 12/08/26
+  lecturer:
+    - Students
   title:
-    - Moved to 12/1 (see above)
+    - "Paper session 14: Native multimodality"
+  readings:
+    - Chameleon - Mixed-Modal Early-Fusion Foundation Models (2024) <a href="https://arxiv.org/abs/2405.09818" target="_blank">[link]</a>
+    - Transfusion - Predict the Next Token and Diffuse Images (2024) <a href="https://arxiv.org/abs/2408.11039" target="_blank">[link]</a>
+  optional:
+    - Moshi - A Speech-Text Foundation Model (2024) <a href="https://arxiv.org/abs/2410.00037" target="_blank">[link]</a>
+
+- date: Thu 12/10/26
+  title:
+    - "Guest lecture 4 (TBD): Multimodal frontier + course wrap-up"
+  guest:
+    - name: TBD
+      affil: TBD
+  readings:
+
+# ============ Final projects ============
+
+- date: Tue 12/15/26
+  lecturer:
+    - Arman
+  title:
+    - Final project presentations - session 1
+
+- date: Thu 12/17/26
+  lecturer:
+    - Arman
+  title:
+    - Final project presentations - session 2
   logistics:
-    - 12/18 Final project report due
+    - Final report due at end of exam period
