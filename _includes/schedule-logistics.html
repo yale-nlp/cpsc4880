@@ -1,0 +1,7 @@
+{% if include.items and include.items != empty %}
+<ul class="schedule-logistics">
+  {% for item in include.items %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}

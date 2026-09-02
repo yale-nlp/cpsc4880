@@ -31,15 +31,55 @@ ul.space_list_no_indent li {
     margin-left: 0;
 }
 
-ul.no-bullets {
-    list-style-type: none;
-    /* Remove bullets */
-    padding: 0;
-    /* Remove padding */
+.schedule-session-list {
+    margin-top: 0;
+}
+
+.guest-lecturer {
+    margin-top: 0.75rem;
+
+    a {
+        color: $theme-color;
+        font-weight: 600;
+    }
+}
+
+.guest-photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 0.6rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.schedule-logistics {
     margin: 0;
-    margin-left: 1em;
-    /* Remove margins */
-    margin-bottom: 1em;
+    padding-left: 1.1rem;
+    color: #b42318;
+    font-size: 0.9rem;
+
+    li {
+        margin-bottom: 0.45rem;
+        line-height: 1.4;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.schedule-special-session {
+    text-align: center;
+
+    .schedule-logistics {
+        display: inline-block;
+        margin-top: 0.6rem;
+        text-align: left;
+    }
+}
+
+.schedule-special-title {
+    font-weight: 600;
 }
 
 .post-title {
@@ -67,24 +107,77 @@ ul.no-bullets {
 
 .post-content {
     h2 {
-        font-size: 42px;
-        // @include media-query($on-laptop) {
-        //     font-size: 28px;
-        // }
+        font-size: 1.75rem;
     }
 
     h3 {
-        font-size: 30px;
-        // @include media-query($on-laptop) {
-        //     font-size: 22px;
-        // }
+        font-size: 1.375rem;
     }
 
     h4 {
-        font-size: 20px;
-        // @include media-query($on-laptop) {
-        //     font-size: 18px;
-        // }
+        font-size: 1.125rem;
+    }
+
+    // Kramdown emits plain table elements without Bootstrap's `.table` class.
+    // Give course-content tables a complete, readable default style.
+    table {
+        width: 100%;
+        max-width: 100%;
+        margin: $space-2 0 $space-3;
+        border: 1px solid $table-border-color;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+    }
+
+    th,
+    td {
+        padding: 0.65rem 0.75rem;
+        border: 1px solid $table-border-color;
+        line-height: 1.4;
+        text-align: left;
+        vertical-align: top;
+        overflow-wrap: anywhere;
+    }
+
+    thead th {
+        background-color: $table-bg-accent;
+        border-bottom-width: 2px;
+        font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: $table-bg-accent;
+    }
+
+    .table-scroll {
+        width: 100%;
+        margin: $space-2 0 $space-3;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        table {
+            margin: 0;
+        }
+    }
+
+    .table-scroll-wide {
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 1%;
+            white-space: nowrap;
+        }
+    }
+}
+
+@media screen and (max-width: $on-palm) {
+    .post-content {
+        .table-scroll table {
+            min-width: 600px;
+        }
+
+        .table-scroll-wide table {
+            min-width: 760px;
+        }
     }
 }
 

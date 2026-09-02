@@ -248,7 +248,6 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
-    unicode_utils (1.4.0)
     webrick (1.8.1)
 
 PLATFORMS
@@ -258,11 +257,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-email-protect
-  jekyll-paginate
-  jemoji
   listen (~> 3.7, >= 3.7.1)
-  minitest (~> 5.16, >= 5.16.3)
-  unicode_utils
   webrick (~> 1.8)
 
 BUNDLED WITH

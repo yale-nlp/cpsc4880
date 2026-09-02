@@ -2,43 +2,58 @@ Instructors:
   - name: Arman Cohan
     email: arman.cohan@yale.edu
     url: https://armancohan.com
-    office-hours: Tue 10:45 - 11:45 AM (by appointment)
-    appointment-url: https://calendly.com/arman-cohan/office-hours
+    office-hours: Mondays 4:30-5:30 (by appointment)
+    appointment-url: https://calendly.com/arman-cohan/oh2
     location: 17 HH 3rd Floor, Room 326
     image: staff/arman.jpg
 
 TAs:
-  - name: Yixin Liu
-    email: yixin.liu@yale.edu
-    url: https://yixinl7.github.io/
-    office-hours: Thu 4-5 PM
-    location: 17 HH 3rd Floor, common area
-    image: staff/yixin.jpg
-
-  - name: Simeng Han
-    email: simeng.han@yale.edu
-    url: https://shirleyhan6.github.io/
-    office-hours: Wed 9-10 AM
-    location: 17 HH 3rd Floor, common area
-    image: staff/simeng.jpg
-
-  - name: Chen Liu
-    email: chen.liu.cl2482@yale.edu
-    url: https://www.chenliu1996.com
-    office-hours: Mon 3-4 PM
-    location: 17 HH 3rd Floor, common area
-    image: staff/chenl.jpg
-
-  - name: Jake Tae
-    email: jake.tae@yale.edu
-    url: https://jaketae.github.io/
+  - name: Kaili Liu
+    email: kaili.liu@yale.edu
+    url: https://pybeebee.com/
     office-hours: TBA
-    location: 17 HH 3rd Floor, common area
-    image: staff/jake.jpg
+    location: 17 HH 3rd Floor
+    image: staff/kaili_liu.png
+
+  - name: Siyi Gu
+    email: siyi.gu@yale.edu
+    url: https://carriegu0818.github.io/
+    office-hours: TBA
+    location: 17 HH 3rd Floor
+    image: staff/siyi_gu.jpg
+
+  - name: Aakash Patel
+    email: aakash.patel.ap2853@yale.edu
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
+
+  - name: Harry (Ardavan) Abiri
+    email: ardavan.abiri@yale.edu
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
+
+  - name: Alan (Haoxin) Li
+    email: haoxin.li@yale.edu
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
 
   - name: Jacob Dunefsky
     email: jacob.dunefsky@yale.edu
-    url: https://www.linkedin.com/in/jacob-dunefsky-703562196/
-    office-hours: Wed 5-6 PM
-    location: 17 HH 3rd Floor, common area
-    image: staff/jacob.jpg
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
+
+  - name: Yanan He
+    email: yanan.he@yale.edu
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
+
+  - name: Andrew Xu
+    email: andrew.xu@yale.edu
+    url:
+    office-hours: TBA
+    location: 17 HH 3rd Floor
