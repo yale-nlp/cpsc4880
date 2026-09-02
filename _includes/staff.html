@@ -1,8 +1,13 @@
 <div class="instructors clearfix">
   {% for instructor in site.data.staff.Instructors %}
   <div class="instructor-profile-two-col">
+    {% if instructor.image contains '://' %}
+      {% assign image_src = instructor.image %}
+    {% else %}
+      {% assign image_src = instructor.image | prepend: '/assets/img/' | relative_url %}
+    {% endif %}
     <a href="{{ instructor.url }}" target="_blank"><img
-        src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" alt="Photo of {{ instructor.name }}" /></a>
+        src="{{ image_src }}" alt="Photo of {{ instructor.name }}" /></a>
     <ul class="instructor-info">
       <li><span>Instructor</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
       <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email
@@ -21,8 +26,13 @@
   {% for instructor in site.data.staff.TAs %}
   <div class="instructor-profile-two-col">
     {% if instructor.image %}
+      {% if instructor.image contains '://' %}
+        {% assign image_src = instructor.image %}
+      {% else %}
+        {% assign image_src = instructor.image | prepend: '/assets/img/' | relative_url %}
+      {% endif %}
     <a href="{{ instructor.url }}" target="_blank"><img
-        src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" alt="Photo of {{ instructor.name }}" /></a>
+        src="{{ image_src }}" alt="Photo of {{ instructor.name }}" /></a>
     {% endif %}
     <ul class="instructor-info">
       <li><span>TA</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
