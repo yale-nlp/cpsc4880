@@ -2,7 +2,7 @@
 layout: schedule
 permalink: /schedule/
 title: Schedule
-description: Sixteen-week master plan. Required-reading changes receive at least ten days' notice.
+description: "Note - Due to the fast moving field, we might change some of the topics or readings (with 2 weeks notice)"
 ---
 
 {% for lecture in site.data.lectures %}
