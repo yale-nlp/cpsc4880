@@ -1,4 +1,4 @@
-# CPSC 4880/5880: Frontier AI Models
+# CPSC 4880/5880: Advances in Frontier AI Models
 
 Course website and curriculum for the Fall 2026 advanced seminar.
 

@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <b>Frontier AI</b> Models
+title: Advances in <b>Frontier AI</b> Models
 description: CPSC 4880/5880 • Fall 2026 • Yale University
 logo: yale-logo.png
 ---

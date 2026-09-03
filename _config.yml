@@ -3,10 +3,10 @@
 # Site settings
 author: CPSC 4880/5880 Staff
 name: CPSC 4880/5880
-title: Frontier AI Models
+title: Advances in Frontier AI Models
 email: arman.cohan@yale.edu
 description: >
-  Frontier AI Models - Yale University - Fall 2026
+  Advances in Frontier AI Models, Yale University, Fall 2026
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>
   <br/>Theme based on <a href="https://github.com/cmudeeprl"> CMU Deep RL</a>.

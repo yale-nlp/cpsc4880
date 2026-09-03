@@ -4,7 +4,7 @@ permalink: /logistics/
 title: Logistics
 ---
 
-# CPSC 4880/5880: Frontier AI Models (Fall 2026)
+# CPSC 4880/5880: Advances in Frontier AI Models (Fall 2026)
 
 **Architectures, Training, and Agentic Systems**
 
