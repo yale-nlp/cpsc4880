@@ -21,7 +21,7 @@
   lecturer:
     - Arman
   title:
-    - Prerequisite assignment overview
+    - Assignment 0 overview
     - Foundations refresher
     - Transformers, pretraining objectives, tokenization, compute analysis
   readings:
@@ -32,7 +32,7 @@
   logistics:
     - Monday classes meet on Friday because of Labor Day
     - Presentation preference form due Wed 09/09 at 9 p.m.; teams and slots announced Fri 09/11
-    - Prerequisite assignment due Sun 09/06
+    - Assignment 0 due Sun 09/06
 
 - date: Mon 09/07/26
   lecturer:

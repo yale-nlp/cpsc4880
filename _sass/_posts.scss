@@ -35,6 +35,15 @@ ul.space_list_no_indent li {
     margin-top: 0;
 }
 
+.schedule-session-links {
+    margin: -0.25rem 0 0.75rem;
+    font-size: 0.9rem;
+
+    a {
+        font-weight: 600;
+    }
+}
+
 .guest-lecturer {
     margin-top: 0.75rem;
 

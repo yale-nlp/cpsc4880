@@ -72,7 +72,7 @@ The course grading components are listed below:
 
 | Component                     | Weight | Notes                                                        |
 | ----------------------------- | ------ | ------------------------------------------------------------ |
-| Prerequisite assignment       | 1%     | A self-assessment that will help students and the course staff evaluate whether students have the necessary background. |
+| Assignment 0                  | 1%     | A prerequisite self-assessment that will help students and the course staff evaluate whether students have the necessary background. |
 | Participation and discussions | 24%    | In-class discussions, quizzes, and group worksheets. |
 | Paper reviews                 | 15%    | A short structured review, approximately one page, submitted before each student-led session. |
 | Paper presentation            | 15%    | Teams of four. Each team presents one paper in a 25-minute slot that includes Q&A. Two teams present per session. Teams submit two candidate takeaway prompts with their slides. <br />Rubric: technical accuracy 25, clarity 15, overall presentation quality 25, critique 15, prompts and Q&A 10, time management 10. |
