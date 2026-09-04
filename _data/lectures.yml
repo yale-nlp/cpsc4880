@@ -14,6 +14,8 @@
     - GPT-4 Technical Report (2023) <a href="https://arxiv.org/abs/2303.08774" target="_blank">[link]</a>
     - The Llama 3 Herd of Models (2024, skim) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
   logistics:
+  slides: 
+    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBYdv1bCgE3SrOljtZQuq_NAdePpWs0VvwRAq31jAHEvsE?e=5S40fx
 
 - date: Fri 09/04/26
   lecturer:
@@ -25,6 +27,8 @@
   readings:
     - Attention Is All You Need (2017) <a href="https://arxiv.org/abs/1706.03762" target="_blank">[link]</a>
     - Scaling Laws for Neural Language Models (2020) <a href="https://arxiv.org/abs/2001.08361" target="_blank">[link]</a>
+  slides:
+    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBWDRcGFPrgQ5oGh1l0v27MARX2N1PTvERaNe6Wi_GFyoU?e=AbtnGW
   logistics:
     - Monday classes meet on Friday because of Labor Day
     - Presentation preference form due Wed 09/09 at 9 p.m.; teams and slots announced Fri 09/11
