@@ -53,6 +53,8 @@
     - GQA - Training Generalized Multi-Query Transformer Models (2023) <a href="https://arxiv.org/abs/2305.13245" target="_blank">[link]</a>
     - DeepSeek-V2 (2024, MLA sections) <a href="https://arxiv.org/abs/2405.04434" target="_blank">[link]</a>
     - FlashAttention (2022) <a href="https://arxiv.org/abs/2205.14135" target="_blank">[link]</a>
+  slides:
+    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBC4x2fs6KNS6xXGFn4mWzMAZD9t9rRgM6CTSMSUTqq9Ng?e=F3uC1v
 
 - date: Mon 09/14/26
   lecturer:
@@ -65,6 +67,8 @@
     - Switch Transformers (2021) <a href="https://arxiv.org/abs/2101.03961" target="_blank">[link]</a>
     - Mixtral of Experts (2024) <a href="https://arxiv.org/abs/2401.04088" target="_blank">[link]</a>
     - Mamba - Linear-Time Sequence Modeling with Selective State Spaces (2023) <a href="https://arxiv.org/abs/2312.00752" target="_blank">[link]</a>
+  slides:
+    - https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCSUht5qVdlTrMB171wJEOEAe6DomWW9VAIxcUbn4crNb0?e=OW5CWd
 
 - date: Wed 09/16/26
   lecturer:
