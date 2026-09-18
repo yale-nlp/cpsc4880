@@ -99,7 +99,7 @@
     - Large Language Diffusion Models - LLaDA (2025) <a href="https://arxiv.org/abs/2502.09992" target="_blank">[link]</a>
     - Titans - Learning to Memorize at Test Time (2025) <a href="https://arxiv.org/abs/2501.00663" target="_blank">[link]</a>
   logistics:
-    - Final project teams due
+    - Final project teams due on Sat 09/26/26
 
 - date: Wed 09/23/26
   lecturer:
@@ -143,7 +143,7 @@
     - Tensor Programs V - muP (2022) <a href="https://arxiv.org/abs/2203.03466" target="_blank">[link]</a>
     - Observational Scaling Laws (2024) <a href="https://arxiv.org/abs/2405.10938" target="_blank">[link]</a>
   logistics:
-    - Project proposal due on 10/03/26
+    - Project proposal due on 10/05/26
 
 # ============ Theme 2: Training and post-training ============
 
@@ -199,8 +199,6 @@
     - The Llama 3 Herd of Models (2024) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
     - NVIDIA Nemotron 3 - Efficient and Open Intelligence (2025) <a href="https://arxiv.org/abs/2512.20856" target="_blank">[link]</a>
     - Beyond Chinchilla-Optimal (2023) <a href="https://arxiv.org/abs/2401.00448" target="_blank">[link]</a>
-  logistics:
-    - Progress report 1 due on Fri 10/16
 
 - date: Mon 10/19/26
   lecturer:
@@ -214,6 +212,8 @@
     - On-Policy Distillation (Thinking Machines Lab, 2025) <a href="https://thinkingmachines.ai/blog/on-policy-distillation/" target="_blank">[link]</a>
     - MiniLLM - Knowledge Distillation of Large Language Models (2023) <a href="https://arxiv.org/abs/2306.08543" target="_blank">[link]</a>
     - Nemotron 3 Ultra (2026, multi-teacher on-policy distillation sections) <a href="https://arxiv.org/abs/2606.15007" target="_blank">[link]</a>
+  logistics:
+    - Progress report 1 due
 
 - date: Wed 10/21/26
   lecturer:
@@ -313,8 +313,6 @@
       photo: https://nishantsubramani.github.io/assets/img/prof_pic.jpg
   readings:
     - TBD
-  logistics:
-    - Progress report 2 due
 
 - date: 11/21/26 - 11/29/26
   lecturer:
@@ -332,7 +330,7 @@
   optional:
     - WebArena (2023) <a href="https://arxiv.org/abs/2307.13854" target="_blank">[link]</a>
   logistics:
-    - Midway project report due Fri 11/20
+    - Progress report 2 due
 
 
 - date: Wed 12/02/26
