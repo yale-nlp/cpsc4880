@@ -108,7 +108,7 @@
     - "Paper session 3: Long context and learned sparse attention"
   readings:
     - DeepSeek-V3.2 - Pushing the Frontier of Open LLMs, DSA sparse attention (2025) <a href="https://arxiv.org/abs/2512.02556" target="_blank">[link]</a>
-    - NoLiMa - Long-Context Evaluation Beyond Literal Matching (2025) <a href="https://arxiv.org/abs/2502.05167" target="_blank">[link]</a>
+    - Native Sparse Attention (2025) <a href="https://arxiv.org/pdf/2502.11089" target="_blank">[link]</a>
   optional:
     - YaRN - Efficient Context Window Extension of LLMs (2023) <a href="https://arxiv.org/abs/2309.00071" target="_blank">[link]</a>
     - Ring Attention with Blockwise Transformers (2023) <a href="https://arxiv.org/abs/2310.01889" target="_blank">[link]</a>
