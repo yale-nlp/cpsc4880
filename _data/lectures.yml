@@ -142,8 +142,6 @@
   optional:
     - Tensor Programs V - muP (2022) <a href="https://arxiv.org/abs/2203.03466" target="_blank">[link]</a>
     - Observational Scaling Laws (2024) <a href="https://arxiv.org/abs/2405.10938" target="_blank">[link]</a>
-  logistics:
-    - Project proposal due on 10/05/26
 
 # ============ Theme 2: Training and post-training ============
 
@@ -162,6 +160,8 @@
     - STaR - Self-Taught Reasoner (2022) <a href="https://arxiv.org/abs/2203.14465" target="_blank">[link]</a>
     - SimPO - Simple Preference Optimization (2024) <a href="https://arxiv.org/abs/2405.14734" target="_blank">[link]</a>
     - Tulu 3 - Pushing Frontiers in Open Post-Training (2024) <a href="https://arxiv.org/abs/2411.15124" target="_blank">[link]</a>
+  logistics:
+    - Project proposal due on 10/05/26
 
 - date: Wed 10/07/26
   title:
