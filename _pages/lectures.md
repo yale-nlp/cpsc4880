@@ -28,7 +28,7 @@ description: "Note - Due to the fast moving field, we might change some of the t
             {% for slide in lecture.slides %}
                 {% assign slide_url = slide.url | default: slide %}
                 <a href="{{ slide_url }}" target="_blank" rel="noopener noreferrer">
-                    {% if slide.label %}{{ slide.label }}{% else %}Slides{% if lecture.slides.size > 1 %} {{ forloop.index }}{% endif %}</a>{% unless forloop.last %}<span aria-hidden="true"> | </span>{% endunless %}
+                    {% if slide.label %}{{ slide.label }}{% else %}Slides{% if lecture.slides.size > 1 %} {{ forloop.index }}{% endif %}{% endif %}</a>{% unless forloop.last %}<span aria-hidden="true"> | </span>{% endunless %}
             {% endfor %}
             </div>
         {% endif %}
