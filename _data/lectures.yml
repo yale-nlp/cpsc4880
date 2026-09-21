@@ -85,9 +85,9 @@
     - Qwen3 Technical Report (2025) <a href="https://arxiv.org/abs/2505.09388" target="_blank">[link]</a>
   slides:
     - label: "Kimi K3 slides"
-    - url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCoVdjpjWdSRI-RHbZ5M_SXAaH0zJl4XfLYE3utvtFYaug?e=WGMn1I
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCoVdjpjWdSRI-RHbZ5M_SXAaH0zJl4XfLYE3utvtFYaug?e=WGMn1I
     - label: "Nemotron 3 Ultra slides"
-    - url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBfApJGnjnsTa4UW1TCoXAzAbOaIki_gnBsJVifI-pqkBo?e=yq00dH
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBfApJGnjnsTa4UW1TCoXAzAbOaIki_gnBsJVifI-pqkBo?e=yq00dH
 
 - date: Mon 09/21/26
   lecturer:
@@ -107,9 +107,9 @@
     - Final project teams due on Sat 09/26/26
   slides:
     - label: "Mamba 2 slides"
-    - url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBkehoYkbrVTZi9L8J1J7abASffQ7j66E4Z_E0A3gY4N5Q?e=6illWo
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBkehoYkbrVTZi9L8J1J7abASffQ7j66E4Z_E0A3gY4N5Q?e=6illWo
     - label: "MiniMax-01 slides"
-    - url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQABB2ov0pWHR6bRpe31FBj7AW8D6VZm9VpJcA-q6OzB5zs?e=iGczO2
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQABB2ov0pWHR6bRpe31FBj7AW8D6VZm9VpJcA-q6OzB5zs?e=iGczO2
 
 - date: Wed 09/23/26
   lecturer:
