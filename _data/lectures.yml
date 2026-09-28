@@ -123,6 +123,12 @@
     - YaRN - Efficient Context Window Extension of LLMs (2023) <a href="https://arxiv.org/abs/2309.00071" target="_blank">[link]</a>
     - Ring Attention with Blockwise Transformers (2023) <a href="https://arxiv.org/abs/2310.01889" target="_blank">[link]</a>
     - RULER - What's the Real Context Size of Your Long-Context LMs? (2024) <a href="https://arxiv.org/abs/2404.06654" target="_blank">[link]</a>
+  slides:
+    - label: "DeepSeek-V3.2 slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDb3jULIm3dT64MJHSWupnVAVLoN_a-wLPYpceNqX8NEYg?e=ThtGwW
+    - label: "NSA slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDte0mWkCxcR6POid7qM020ARRaahKVjG4uKOMZM3UGfLg?e=edbeg3
+
 
 - date: Mon 09/28/26
   lecturer:
@@ -137,6 +143,11 @@
     - Molmo and PixMo (2024) <a href="https://arxiv.org/abs/2409.17146" target="_blank">[link]</a>
     - Transfusion - Predict the Next Token and Diffuse Images (2024) <a href="https://arxiv.org/abs/2408.11039" target="_blank">[link]</a>
     - Kimi K2.5 - Visual Agentic Intelligence (2026) <a href="https://arxiv.org/abs/2602.02276" target="_blank">[link]</a>
+  slides:
+    - label: "Qwen2.5-VL slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCXBGnvWu2OQYpNL7QC03CtAQiPJ71ESVpv1J7s-tTjOAU?e=Fnbq4u
+    - label: "Chameleon slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCSY4y2f5qhTp2f4uceMPUtAe4n3EH0din0snP2EAsZ5MY?e=Os5okk
 
 - date: Wed 09/30/26
   lecturer:
