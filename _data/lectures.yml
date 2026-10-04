@@ -202,26 +202,25 @@
   lecturer:
     - Students
   title:
-    - "Paper session 5: Data"
+    - "Paper session 5: Reward design, LLM judges and agentic verifiers"
   readings:
-    - FineWeb - Decanting the Web for the Finest Text Data at Scale (2024) <a href="https://arxiv.org/abs/2406.17557" target="_blank">[link]</a>
-    - DataComp-LM (2024) <a href="https://arxiv.org/abs/2406.11794" target="_blank">[link]</a>
+    - "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2509.21500\" target=\"_blank\">[link]</a>"
+    - "The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href=\"https://arxiv.org/abs/2606.26300\" target=\"_blank\">[link]</a>"
   optional:
-    - Scaling Data-Constrained Language Models (2023) <a href="https://arxiv.org/abs/2305.16264" target="_blank">[link]</a>
-    - Phi-4 Technical Report (2024) <a href="https://arxiv.org/abs/2412.08905" target="_blank">[link]</a>
+    - "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2507.17746\" target=\"_blank\">[link]</a>"
+    - Online Rubrics Elicitation from Pairwise Comparisons (2025, ICML 2026) <a href="https://arxiv.org/abs/2510.07284" target="_blank">[link]</a>
 
 - date: Wed 10/14/26
   lecturer:
     - Students
   title:
-    - "Paper session 6: Open training recipes end to end"
+    - "Paper session 6: Training methods, optimization and objectives"
   readings:
-    - GLM-5 - from Vibe Coding to Agentic Engineering (2026) <a href="https://arxiv.org/abs/2602.15763" target="_blank">[link]</a>
-    - 2 OLMo 2 Furious (2024) <a href="https://arxiv.org/abs/2501.00656" target="_blank">[link]</a>
+    - Muon is Scalable for LLM Training (2025) <a href="https://arxiv.org/abs/2502.16982" target="_blank">[link]</a>
+    - "RLP: Reinforcement as a Pretraining Objective (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2510.01265\" target=\"_blank\">[link]</a>"
   optional:
-    - The Llama 3 Herd of Models (2024) <a href="https://arxiv.org/abs/2407.21783" target="_blank">[link]</a>
-    - NVIDIA Nemotron 3 - Efficient and Open Intelligence (2025) <a href="https://arxiv.org/abs/2512.20856" target="_blank">[link]</a>
-    - Beyond Chinchilla-Optimal (2023) <a href="https://arxiv.org/abs/2401.00448" target="_blank">[link]</a>
+    - Fantastic Pretraining Optimizers and Where to Find Them (2025, ICLR 2026) <a href="https://arxiv.org/abs/2509.02046" target="_blank">[link]</a>
+    - Rethinking Language Model Scaling under Transferable Hypersphere Optimization (2026) <a href="https://arxiv.org/abs/2603.28743" target="_blank">[link]</a>
 
 - date: Mon 10/19/26
   lecturer:
@@ -249,12 +248,11 @@
   title:
     - "Paper session 8: RL algorithms after GRPO"
   readings:
-    - GSPO - Group Sequence Policy Optimization (2025) <a href="https://arxiv.org/abs/2507.18071" target="_blank">[link]</a>
     - Understanding R1-Zero-Like Training - Dr. GRPO (2025) <a href="https://arxiv.org/abs/2503.20783" target="_blank">[link]</a>
+    - Rethinking the Trust Region in LLM Reinforcement Learning - DPPO (2026) <a href="https://arxiv.org/abs/2602.04879" target="_blank">[link]</a>
   optional:
-    - DAPO - An Open-Source LLM RL System at Scale (2025) <a href="https://arxiv.org/abs/2503.14476" target="_blank">[link]</a>
-    - Kimi k1.5 (2025) <a href="https://arxiv.org/abs/2501.12599" target="_blank">[link]</a>
-    - GLM-5 (2026, asynchronous agent RL sections) <a href="https://arxiv.org/abs/2602.15763" target="_blank">[link]</a>
+    - GSPO - Group Sequence Policy Optimization (2025) <a href="https://arxiv.org/abs/2507.18071" target="_blank">[link]</a>
+    - The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (2025) <a href="https://arxiv.org/abs/2505.22617" target="_blank">[link]</a>
 
 - date: Wed 10/28/26
   title:
