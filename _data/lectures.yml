@@ -205,8 +205,9 @@
     - "Paper session 5: Reward design, LLM judges and agentic verifiers"
   readings:
     - "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2509.21500\" target=\"_blank\">[link]</a>"
-    - "The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href=\"https://arxiv.org/abs/2606.26300\" target=\"_blank\">[link]</a>"
+    - "DataComp-LM: In search of the next generation of training sets for language models (2026) <a href=\"https://arxiv.org/pdf/2406.11794\" target=\"_blank\">[link]</a>"
   optional:
+    - "The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href=\"https://arxiv.org/abs/2606.26300\" target=\"_blank\">[link]</a>"
     - "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2507.17746\" target=\"_blank\">[link]</a>"
     - Online Rubrics Elicitation from Pairwise Comparisons (2025, ICML 2026) <a href="https://arxiv.org/abs/2510.07284" target="_blank">[link]</a>
 
