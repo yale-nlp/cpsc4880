@@ -129,7 +129,6 @@
     - label: "NSA slides"
       url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDte0mWkCxcR6POid7qM020ARRaahKVjG4uKOMZM3UGfLg?e=edbeg3
 
-
 - date: Mon 09/28/26
   lecturer:
     - Students
@@ -204,11 +203,11 @@
   title:
     - "Paper session 5: Reward design, LLM judges and agentic verifiers"
   readings:
-    - "Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2509.21500\" target=\"_blank\">[link]</a>"
-    - "DataComp-LM: In search of the next generation of training sets for language models (2026) <a href=\"https://arxiv.org/pdf/2406.11794\" target=\"_blank\">[link]</a>"
+    - 'Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training (2025, ICLR 2026) <a href="https://arxiv.org/abs/2509.21500" target="_blank">[link]</a>'
+    - 'DataComp-LM: In search of the next generation of training sets for language models (2026) <a href="https://arxiv.org/pdf/2406.11794" target="_blank">[link]</a>'
   optional:
-    - "The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href=\"https://arxiv.org/abs/2606.26300\" target=\"_blank\">[link]</a>"
-    - "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2507.17746\" target=\"_blank\">[link]</a>"
+    - 'The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href="https://arxiv.org/abs/2606.26300" target="_blank">[link]</a>'
+    - 'Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains (2025, ICLR 2026) <a href="https://arxiv.org/abs/2507.17746" target="_blank">[link]</a>'
     - Online Rubrics Elicitation from Pairwise Comparisons (2025, ICML 2026) <a href="https://arxiv.org/abs/2510.07284" target="_blank">[link]</a>
 
 - date: Wed 10/14/26
@@ -218,7 +217,7 @@
     - "Paper session 6: Training methods, optimization and objectives"
   readings:
     - Muon is Scalable for LLM Training (2025) <a href="https://arxiv.org/abs/2502.16982" target="_blank">[link]</a>
-    - "RLP: Reinforcement as a Pretraining Objective (2025, ICLR 2026) <a href=\"https://arxiv.org/abs/2510.01265\" target=\"_blank\">[link]</a>"
+    - 'RLP: Reinforcement as a Pretraining Objective (2025, ICLR 2026) <a href="https://arxiv.org/abs/2510.01265" target="_blank">[link]</a>'
   optional:
     - Fantastic Pretraining Optimizers and Where to Find Them (2025, ICLR 2026) <a href="https://arxiv.org/abs/2509.02046" target="_blank">[link]</a>
     - Rethinking Language Model Scaling under Transferable Hypersphere Optimization (2026) <a href="https://arxiv.org/abs/2603.28743" target="_blank">[link]</a>
@@ -244,6 +243,17 @@
     - Progress report 1 due
 
 - date: Mon 10/26/26
+  title:
+    - Guest lecture (TBD)
+  guest:
+    - name: Hamish Ivison
+      affil: University of Washington / Meta FAIR
+      profile: https://ivison.id.au/
+      photo: https://ivison.id.au/assets/static/me-400.webp
+  readings:
+    - TBD
+
+- date: Wed 10/28/26
   lecturer:
     - Students
   title:
@@ -254,17 +264,6 @@
   optional:
     - GSPO - Group Sequence Policy Optimization (2025) <a href="https://arxiv.org/abs/2507.18071" target="_blank">[link]</a>
     - The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (2025) <a href="https://arxiv.org/abs/2505.22617" target="_blank">[link]</a>
-
-- date: Wed 10/28/26
-  title:
-    - Guest lecture (TBD)
-  guest:
-    - name: Hamish Ivison
-      affil: University of Washington / Google Deepmind
-      profile: https://ivison.id.au/
-      photo: https://ivison.id.au/assets/static/me-400.webp
-  readings:
-    - TBD
 
 - date: Mon 11/02/26
   lecturer:
