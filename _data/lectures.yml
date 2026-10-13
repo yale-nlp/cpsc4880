@@ -351,41 +351,25 @@
   readings:
     - OSWorld - Benchmarking Multimodal Agents in Real Computer Environments (2024) <a href="https://arxiv.org/abs/2404.07972" target="_blank">[link]</a>
     - UI-TARS - Pioneering Automated GUI Interaction with Native Agents (2025) <a href="https://arxiv.org/abs/2501.12326" target="_blank">[link]</a>
+    - SWE-RL - Advancing LLM Reasoning via RL on Open Software Evolution (2025) <a href="https://arxiv.org/abs/2502.18449" target="_blank">[link]</a>
   optional:
     - WebArena (2023) <a href="https://arxiv.org/abs/2307.13854" target="_blank">[link]</a>
-  logistics:
-    - Progress report 2 due
-
-- date: Wed 12/02/26
-  lecturer:
-    - Students
-  title:
-    - "Paper session 12: Training agents, and orchestrating many of them"
-  readings:
-    - SWE-RL - Advancing LLM Reasoning via RL on Open Software Evolution (2025) <a href="https://arxiv.org/abs/2502.18449" target="_blank">[link]</a>
     - Kimi K2.5 - Visual Agentic Intelligence, Agent Swarm sections (2026) <a href="https://arxiv.org/abs/2602.02276" target="_blank">[link]</a>
-  optional:
     - Reflexion - Language Agents with Verbal Reinforcement Learning (2023) <a href="https://arxiv.org/abs/2303.11366" target="_blank">[link]</a>
     - Why Do Multi-Agent LLM Systems Fail? (2025) <a href="https://arxiv.org/abs/2503.13657" target="_blank">[link]</a>
     - MemGPT - Towards LLMs as Operating Systems (2023) <a href="https://arxiv.org/abs/2310.08560" target="_blank">[link]</a>
     - Voyager - An Open-Ended Embodied Agent (2023) <a href="https://arxiv.org/abs/2305.16291" target="_blank">[link]</a>
     - WebRL (2024) <a href="https://arxiv.org/abs/2411.02337" target="_blank">[link]</a>
+  logistics:
+    - Progress report 2 due
 
 # ============ Final projects ============
 
-- date: Mon 12/07/26
+- date: Wed 12/02/26
   lecturer:
     - Arman
   title:
-    - Final project presentations - session 1
+    - Final project presentations
   logistics:
     - Format will be announced
-
-- date: Wed 12/09/26
-  lecturer:
-    - Arman
-  title:
-    - Final project presentations - session 2
-    - Course wrap-up
-  logistics:
     - Final report due at end of exam period
