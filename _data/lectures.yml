@@ -185,10 +185,16 @@
     - Tulu 3 - Pushing Frontiers in Open Post-Training (2024) <a href="https://arxiv.org/abs/2411.15124" target="_blank">[link]</a>
   logistics:
     - Project proposal due on 10/05/26
+  slides:
+    - label: "Slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCLaSmHqo53SZ79Xx74d3UqAUWpcAC8YVMoRVx3qfxpJOQ?e=RSn0Uv
 
 - date: Wed 10/07/26
   title:
-    - Guest lecture on Foundation Models with Knowledge Graphs
+    - A Geometric Perspective on Foundation Models
+  slides:
+    - label: "Slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQAD_iHMsAa4QIPST44yuwDsATbdKLCLZeMhV4gFMFBGaGw?e=dDibzr
   guest:
     - name: Rex Ying
       affil: Yale University
