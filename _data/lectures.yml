@@ -250,14 +250,17 @@
 
 - date: Mon 10/26/26
   title:
-    - Guest lecture (TBD)
+    - Learning to do RL, quickly
   guest:
     - name: Hamish Ivison
       affil: University of Washington / Meta FAIR
       profile: https://ivison.id.au/
       photo: https://ivison.id.au/assets/static/me-400.webp
   readings:
-    - TBD
+    - Async RLHF, https://arxiv.org/abs/2410.18252v3
+    - Olmo 3, https://arxiv.org/abs/2512.13961
+    - NGU, https://arxiv.org/abs/2609.13443
+    - RLVE, https://arxiv.org/abs/2511.07317
 
 - date: Wed 10/28/26
   lecturer:
