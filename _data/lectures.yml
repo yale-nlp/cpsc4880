@@ -215,6 +215,11 @@
     - 'The Verification Horizon: No Silver Bullet for Coding Agent Rewards (2026) <a href="https://arxiv.org/abs/2606.26300" target="_blank">[link]</a>'
     - 'Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains (2025, ICLR 2026) <a href="https://arxiv.org/abs/2507.17746" target="_blank">[link]</a>'
     - Online Rubrics Elicitation from Pairwise Comparisons (2025, ICML 2026) <a href="https://arxiv.org/abs/2510.07284" target="_blank">[link]</a>
+  slides:
+    - label: "Chasing the tail slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDGQVG3j4qhTrA-hcM9l8ZWAWPVohYVJM1-kGRGlU2nGyk?e=6vR8Cb
+    - label: "DCLM slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDQH54JoPZWR7l0X9MXUXZLAZgl9PnzaoShJEiowtK2-SA?e=NkjTT0
 
 - date: Wed 10/14/26
   lecturer:
