@@ -232,6 +232,11 @@
   optional:
     - Fantastic Pretraining Optimizers and Where to Find Them (2025, ICLR 2026) <a href="https://arxiv.org/abs/2509.02046" target="_blank">[link]</a>
     - Rethinking Language Model Scaling under Transferable Hypersphere Optimization (2026) <a href="https://arxiv.org/abs/2603.28743" target="_blank">[link]</a>
+  slides:
+    - label: "Muon slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCKCbs-jAoBR6Iy4LWQ6FOYAfh9Sl_8o5w1p_DLxEguRno?e=GN3Oqz
+    - label: "RLP slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBrxeVhAiVjTbYLA-A6M59iASgGZ3ONeZeD1fQcIbso9C0?e=PlwteT
 
 - date: Mon 10/19/26
   lecturer:
@@ -245,6 +250,9 @@
     - On-Policy Distillation (Thinking Machines Lab, 2025) <a href="https://thinkingmachines.ai/blog/on-policy-distillation/" target="_blank">[link]</a>
     - MiniLLM - Knowledge Distillation of Large Language Models (2023) <a href="https://arxiv.org/abs/2306.08543" target="_blank">[link]</a>
     - Nemotron 3 Ultra (2026, multi-teacher on-policy distillation sections) <a href="https://arxiv.org/abs/2606.15007" target="_blank">[link]</a>
+  slides:
+    - label: "OPSD slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBQbepZdIN7T4TRBvx6seD4AY_jYtxUv4mfePdqAllCDr4?e=uTuurj
 
 - date: Wed 10/21/26
   lecturer:
