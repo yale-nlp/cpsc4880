@@ -322,26 +322,18 @@
 
 - date: Wed 11/11/26
   lecturer:
-    - Arman
-  title:
-    - Evaluating agents, and agent safety
-    - Agentic benchmarks and their pitfalls, reward hacking, prompt injection
-  readings:
-    - SWE-bench - Can LMs Resolve Real-World GitHub Issues? (2023) <a href="https://arxiv.org/abs/2310.06770" target="_blank">[link]</a>
-    - tau-bench - Tool-Agent-User Interaction Benchmark (2024) <a href="https://arxiv.org/abs/2406.12045" target="_blank">[link]</a>
-    - Terminal-Bench - Benchmarking Agents on Hard, Realistic CLI Tasks (2026) <a href="https://arxiv.org/abs/2601.11868" target="_blank">[link]</a>
-    - Not What You've Signed Up For - Indirect Prompt Injection (2023) <a href="https://arxiv.org/abs/2302.12173" target="_blank">[link]</a>
-  optional:
-    - GAIA - A Benchmark for General AI Assistants (2023) <a href="https://arxiv.org/abs/2311.12983" target="_blank">[link]</a>
-
-- date: Mon 11/16/26
-  lecturer:
     - Students
   title:
     - "Paper session 10: Coding agents"
   readings:
     - SWE-agent - Agent-Computer Interfaces Enable Automated SWE (2024) <a href="https://arxiv.org/abs/2405.15793" target="_blank">[link]</a>
     - Agentless - Demystifying LLM-Based Software Engineering Agents (2024) <a href="https://arxiv.org/abs/2407.01489" target="_blank">[link]</a>
+
+- date: Mon 11/16/26
+  lecturer:
+   - Guest lecture
+  guest:
+   - name: TBD
 
 - date: Wed 11/18/26
   title:
