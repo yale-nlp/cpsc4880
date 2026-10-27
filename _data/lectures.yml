@@ -282,9 +282,9 @@
     - "Paper session 8: RL algorithms after GRPO"
   readings:
     - Understanding R1-Zero-Like Training - Dr. GRPO (2025) <a href="https://arxiv.org/abs/2503.20783" target="_blank">[link]</a>
-    - Rethinking the Trust Region in LLM Reinforcement Learning - DPPO (2026) <a href="https://arxiv.org/abs/2602.04879" target="_blank">[link]</a>
-  optional:
     - GSPO - Group Sequence Policy Optimization (2025) <a href="https://arxiv.org/abs/2507.18071" target="_blank">[link]</a>
+  optional:
+    - Rethinking the Trust Region in LLM Reinforcement Learning - DPPO (2026) <a href="https://arxiv.org/abs/2602.04879" target="_blank">[link]</a>
     - The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (2025) <a href="https://arxiv.org/abs/2505.22617" target="_blank">[link]</a>
 
 - date: Mon 11/02/26
