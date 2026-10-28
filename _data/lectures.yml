@@ -274,6 +274,9 @@
     - Olmo 3, https://arxiv.org/abs/2512.13961
     - NGU, https://arxiv.org/abs/2609.13443
     - RLVE, https://arxiv.org/abs/2511.07317
+  slides:
+    - label: "Slides"
+    - url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDR9W5Nu9d2S7YUS0aAF1hdASgEtF0uoQyPbel1hAg9QAU?e=2dZiUl
 
 - date: Wed 10/28/26
   lecturer:
