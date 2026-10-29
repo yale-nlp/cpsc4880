@@ -251,6 +251,8 @@
     - MiniLLM - Knowledge Distillation of Large Language Models (2023) <a href="https://arxiv.org/abs/2306.08543" target="_blank">[link]</a>
     - Nemotron 3 Ultra (2026, multi-teacher on-policy distillation sections) <a href="https://arxiv.org/abs/2606.15007" target="_blank">[link]</a>
   slides:
+    - label: "Lecture slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBSXqwUnulJTLhE6YUBOkryARPZWGCVwc7IDJF_2wNQKPs?e=KfQ8Er
     - label: "OPSD slides"
       url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBQbepZdIN7T4TRBvx6seD4AY_jYtxUv4mfePdqAllCDr4?e=uTuurj
 
