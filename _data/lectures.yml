@@ -338,7 +338,12 @@
   lecturer:
    - Guest lecture
   guest:
-   - name: TBD
+   - name: In Gim
+     affil: Yale
+     profile: https://ingim.org
+     photo: https://ingim.org/headshot.jpg
+  logistics:
+    - Week of 11/16: Progress presentation at TA office hours
 
 - date: Wed 11/18/26
   title:
@@ -373,8 +378,6 @@
     - MemGPT - Towards LLMs as Operating Systems (2023) <a href="https://arxiv.org/abs/2310.08560" target="_blank">[link]</a>
     - Voyager - An Open-Ended Embodied Agent (2023) <a href="https://arxiv.org/abs/2305.16291" target="_blank">[link]</a>
     - WebRL (2024) <a href="https://arxiv.org/abs/2411.02337" target="_blank">[link]</a>
-  logistics:
-    - Progress report 2 due
 
 # ============ Final projects ============
 
