@@ -291,6 +291,11 @@
   optional:
     - Rethinking the Trust Region in LLM Reinforcement Learning - DPPO (2026) <a href="https://arxiv.org/abs/2602.04879" target="_blank">[link]</a>
     - The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models (2025) <a href="https://arxiv.org/abs/2505.22617" target="_blank">[link]</a>
+  slides:
+    - label: "Dr. GRPO"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQCDBDN-gDmVSZSk4xK6a12JAYcaCVM89Blx9omUalq86q0?e=7zd8nx
+    - label: "GSPO"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQDZKjHFCmUiQYIxHy5s9kwJAQKB64ia53FVowTWpriUZcs?e=f6e5Z5
 
 - date: Mon 11/02/26
   lecturer:
@@ -309,6 +314,11 @@
     - Scaling LLM Test-Time Compute Optimally (2024) <a href="https://arxiv.org/abs/2408.03314" target="_blank">[link]</a>
   optional:
     - Let's Verify Step by Step (2023) <a href="https://arxiv.org/abs/2305.20050" target="_blank">[link]</a>
+  slides:
+    - label: "s1"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBcbeTHbkgLSbi-N6np40u0AVlRnCFMpXleKTyboucH9tM?e=35ruCb
+    - label: "Scaling LLM Test-Time Compute Optimally"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQBv2o__n3rdTYWCTPyq0K8IAQQuQ1KxOXe4EhUXimczyoQ?e=hVCFel
 
 # ============ Theme 3: Agents and harnesses ============
 
