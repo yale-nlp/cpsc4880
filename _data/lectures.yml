@@ -345,8 +345,8 @@
     - Agentless - Demystifying LLM-Based Software Engineering Agents (2024) <a href="https://arxiv.org/abs/2407.01489" target="_blank">[link]</a>
 
 - date: Mon 11/16/26
-  lecturer:
-   - Guest lecture
+  title:
+   - Guest lecture on LLM efficiency
   guest:
    - name: In Gim
      affil: Yale
