@@ -334,6 +334,9 @@
     - Toolformer (2023) <a href="https://arxiv.org/abs/2302.04761" target="_blank">[link]</a>
     - CodeAct - Executable Code Actions Elicit Better LLM Agents (2024) <a href="https://arxiv.org/abs/2402.01030" target="_blank">[link]</a>
     - Building Effective Agents (Anthropic, 2024) <a href="https://www.anthropic.com/research/building-effective-agents" target="_blank">[link]</a>
+  slides:
+    - label: "Intro to agents slides"
+      url: https://yaleedu-my.sharepoint.com/:b:/g/personal/arman_cohan_yale_edu/IQAaOsu0-MwTTobW5theZVLxAWDfuvNuuckNG3QUDNFjhBY?e=ZcPBHv
 
 - date: Wed 11/11/26
   lecturer:
